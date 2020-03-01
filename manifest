@@ -1,0 +1,11 @@
+: 1
+name: balancing-robot-simulation
+version: 0.1.0-a.0.z
+summary: Simple Simulation of a Self-Balancing Robot
+license: MIT ; MIT License
+description-file: README.md
+url: https://github.com/lyrahgames/balancing-robot-simulation
+email: markuspawellek@gmail.com
+depends: * build2 >= 0.12.0
+depends: * bpkg >= 0.12.0
+requires: sfml-graphics ; SFML Graphics Library

@@ -1,0 +1,3 @@
+import libs = sfml-graphics%lib{sfml-graphics}
+
+exe{simulation}: {hxx cxx}{**} $libs

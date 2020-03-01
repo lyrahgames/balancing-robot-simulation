@@ -1,8 +1,4 @@
 #pragma once
-#include <SFML/Graphics.hpp>
-#include <array>
-#include <chrono>
-#include <cmath>
 
 struct viewport {
   using vector = std::array<float, 2>;
@@ -31,15 +27,4 @@ struct viewport {
   vector max;
   float pixel_scale;
   float point_scale;
-};
-
-class application {
- public:
-  application();
-  ~application() = default;
-  void execute();
-
- private:
-  sf::RenderWindow *window;
-  viewport view{800, 450, 5, {0, 1}};
 };

@@ -5,7 +5,11 @@
 !*.hpp
 
 !buildfile
+!root.build
+!bootstrap.build
+!manifest
 
 !README.md
+!LICENSE
 
 !.gitignore
